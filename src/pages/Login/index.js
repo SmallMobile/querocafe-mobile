@@ -15,8 +15,8 @@ import {
 import BackgroundImage from '../../assets/login_background200px.png';
 
 export default function Login(props) {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('aaaa');
+  const [password, setPassword] = useState('bbbb');
   const [error, setError] = useState("");
 
   handleEmailChange = (email) => {
